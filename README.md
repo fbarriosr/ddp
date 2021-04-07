@@ -1,5 +1,10 @@
 # DDP
 
+Genera archivos .cub visualizables con el programa GaussView o cualquier otro capaz de leer archivos .cub provenientes de Gaussian. Corresponden a los campos escalares del potencial de las funciones de Fukui nucleofílica, Fukui electrofílica y del descriptor dual. No son los mismos archivos que genera el código dualDescriptor, de hecho ddp está en investigación pues ddp se basa en el cálculo del potencial electrostático molecular. Por cada sistema molecular, requiere como alimentación de tres archivos .fchk correspondientes al sistema con N, N+p y N-q electrones.
+Utilizable solo en servidores con sistema operativo Linux y siempre tenga instalados y operativos
+los programas Gaussian y sus complementarios cubegen y cubman.
+
+
 ## Requerimientos
 
 Requiere python 3.
